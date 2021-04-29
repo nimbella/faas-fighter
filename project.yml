@@ -1,0 +1,14 @@
+packages:
+  - name: default
+    actions:
+      - name: JsBot
+        annotations:
+          nimbot: js
+
+      - name: PyBot
+        annotations:
+          nimbot: py
+
+      - name: GoBot
+        annotations:
+          nimbot: go
